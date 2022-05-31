@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebservers
   tasks: 
   - name: i want to install webserver
     apt: 
